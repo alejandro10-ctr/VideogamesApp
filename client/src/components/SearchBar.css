@@ -1,0 +1,84 @@
+.barra {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 300px;
+    height: 25px;
+    left: 40%;
+    border-radius: 20px;
+    
+}
+/* 
+.barra::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 10px;
+    height: 50px;
+    z-index: 1;
+    background: linear-gradient(#fff, #fff, #e3e3e3);
+    filter: blur(1px);
+} */
+
+/* .barra::after {
+    position: absolute;
+    content: '';
+    right: -1px;
+    width: 10px;
+    height: 50px;
+    z-index: 1;
+    background: #9d9d9d;
+    filter: blur(1px);
+} */
+
+.barra input {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 0.5em 20px;
+    background: linear-gradient(#dbdae1, #a3a3a3);
+    color: #555;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1),
+      15px 15px 15px rgba(0,0,0,0.1),
+      20px 20px 15px rgba(0,0,0,0.1),
+      30px 30px 15px rgba(0,0,0,0.1),
+      inset 1px 1px 2px #fff;          
+}
+
+
+
+/* .sombra {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 0;
+    left: -50px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.1),
+    transparent, transparent);
+    transform-origin: top;
+    transform: skew(45deg);
+}
+
+.sombra::before {
+    position: absolute;
+    content:'';
+    width: 50px;
+    height: 50px;
+    background-color: #cfd1e1;
+    z-index: 1;
+}
+ */
+
+.searchBtn {
+   position: absolute;
+   right: 2px;
+   padding-top: 10px;
+   font-size: 1.5em;
+   cursor: pointer;
+   border: 20px;
+   background: #ffffff00     
+}

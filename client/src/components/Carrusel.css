@@ -1,0 +1,19 @@
+.CarouselContainer{
+  
+  /*   background-image: url("https://st4.depositphotos.com/1814366/24772/i/600/depositphotos_247721238-stock-photo-glowing-neon-light-background-template.jpg") ; */
+    width: 100%;  
+}
+
+.CarrImg{
+    /* max-width: 500px; */
+   
+width: 100%;
+height: auto;
+
+opacity: 0;
+transition: 1s;
+&.loaded{
+    opacity: 1
+}
+
+}

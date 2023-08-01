@@ -1,0 +1,55 @@
+.pagination {
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+   
+   
+}
+
+.pagination ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    
+   
+}
+
+.pagination ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 30px;
+}
+
+.pagination ul li button {
+   
+    align-content: flex-start;
+    display: inline-block;
+    justify-content: space-between;
+    margin: auto;
+    padding: 5px 20px;
+    background: #000000;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+ .pages{
+     position: absolute;
+     left: 230px;
+     bottom: 0;
+     width: 100%;
+     
+     background-color: rgba(44, 5, 88, 0.733);
+     color: white;
+     text-align: center;
+     
+}
+
+.PagContainer{
+    display: inline-block;
+    position: absolute;
+   margin-left: -15rem;
+
+    
+      
+} 
